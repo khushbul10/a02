@@ -252,7 +252,6 @@ body {
 
 /* footer section styles  */
 .footer-container {
-    padding: 100px 140px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -276,6 +275,7 @@ body {
 .footer-about-list {
     list-style: none;
     padding: 5px;
+    margin-top: 10px;
 }
 
 
@@ -341,5 +341,11 @@ body {
         left: 20px;
     }
     
+    /* footer styles  */
+    .footer-container {
+        padding: 20px 16px;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 
 }
