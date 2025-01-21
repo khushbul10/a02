@@ -249,6 +249,38 @@ body {
     font-weight: 600;
 }
 
+
+/* footer section styles  */
+.footer-container {
+    padding: 100px 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color: white;
+    background-color: rgba(6, 4, 4, 0.808);
+}
+.footer-titles {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2vh;
+}
+.footer-logo {
+    width: 80px;
+    height: 80px;
+}
+.footer-socials-icon {
+    height: 40px;
+    width: 40px;
+}
+.footer-about-list {
+    list-style: none;
+    padding: 5px;
+}
+
+
+
+
 /* for mobile view */
 @media screen and (max-width: 768px) {
     .paddingg {
