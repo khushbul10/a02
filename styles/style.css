@@ -91,6 +91,17 @@ body {
     display: none;
 }
 
+/* marquee styles  */
+.marquee {
+    background-color: orange;
+    color: white;
+    padding: 10px 0;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+}
+
+
 /* banner sectiion styles  */
 .banner {
     display: flex;
@@ -288,7 +299,6 @@ body {
     }
 
     .navbar {
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -315,7 +325,6 @@ body {
 
     /* banner styles  */
     .banner {
-        width: 100%;
         flex-direction: column-reverse;
         gap: 20px;
     }
@@ -331,6 +340,7 @@ body {
     /* curriculum section styles */
     .curriculum-card-container {
         grid-template-columns: 1fr;
+        width: 100%;
     }
     /* stories setion styles */
     .stories-card-big {
