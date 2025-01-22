@@ -3,6 +3,9 @@ body {
     font-family: 'quicksand', sans-serif;
     margin: 0;
 }
+.raleway {
+    font-family: 'raleway', sans-serif;
+}
 .paddingg {
     padding: 20px 140px;
 }
@@ -69,6 +72,7 @@ body {
 }
 
 .navbar-list {
+    max-width: 25%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -142,6 +146,9 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+.banner-img {
+    width: 50%;
+}
 
 /* curriculum section  */
 .curriculum {
@@ -174,6 +181,7 @@ body {
 }
 .curriculum-card-desc {
     font-size: 20px;
+    font-family: 'raleway', sans-serif;
 }
 .curriculum-card-btn {
     background: none;
@@ -217,6 +225,7 @@ body {
     border-top-right-radius: 12px;
 }
 .stories-card-date, .stories-card2-date {
+    font-family: 'raleway', sans-serif;
     position:relative;
     text-align: center;
     font-size: 0.9em;
@@ -359,6 +368,9 @@ body {
     /* stories setion styles */
     .stories-card-big {
         display: none;
+    }
+    .stories-container {
+        grid-template-columns: 1fr;
     }
     
     /* footer styles  */
